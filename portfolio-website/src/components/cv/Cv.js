@@ -2,18 +2,25 @@ import React from 'react';
 import Container from "react-bootstrap/Container";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import {CV} from '../../constants';
+import Experience from '../cv/Experience';
+import Education from '../cv/Education';
+import Courses from '../cv/Courses';
+import Skills from '../cv/Skills';
 
 export default function Cv (props) {
     return (
-        <Container>
-            <h1>CV Kristoffer B. Halden</h1>
-            <Row>
-                <h3>Erfaring</h3>
-                <div>
-                    <h4>Resepsjonist, Kjøkkenassistent</h4><span>Juni 2019 - August 2019</span>
-                    <p>Gol Campingsenter</p>
-                </div>
-            </Row>
+        <Container className='cv'>
+            <div className='cv__initial-info'>
+                <h1>{CV.name}</h1>
+                <p>{CV.adress}</p>
+                <p>{CV.mobile} | {CV.email}</p>
+                <p>{CV.born}</p>
+            </div>
+            <Experience />
+            <Education />
+            <Courses />
+            <Skills />
         </Container>
     )
 }

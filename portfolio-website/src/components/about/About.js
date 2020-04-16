@@ -4,10 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FigureImage from 'react-bootstrap/FigureImage'
 import portrait from '../../images/port.jpg'
-import {CV} from '../../constants'
 
 export default function About (props) {
-    console.log(CV)
     return (
         <Container className='about'>
             <Row>

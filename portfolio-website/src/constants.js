@@ -53,77 +53,77 @@ export const projects = [
 ];
 export const CV = {
     name: 'Kristoffer Bråthen Halden',
-    adress: 'Vikens gate 16',
+    adress: 'Vikens gate 16 5057 Bergen',
     mobile: '94195061',
     email: 'kris-b.h@hotmail.com',
     born: '6. April 1995',
     CVExperiences: [
         {
-            Title: 'Personal Support',
+            title: 'Personal Support',
             duration: 'November 2019 - Still Employed',
             employer: 'Bergen Kommune',
-            JobDetails: 'Supporting individuals with certain difficulties, like Socializing, echonomy, acitvizing, mental issues, etc.'
+            details: 'Supporting individuals with certain difficulties, like Socializing, echonomy, acitvizing, mental issues, etc.'
         },
         {
-            Title: 'Receptionist and Resturantassisant',
+            title: 'Receptionist and Resturantassisant',
             duration: 'June 2019 - August 2019',
             employer: 'Gol Campingsenter',
-            JobDetails: 'Full time summerjob, various tasks around the facility both in the kitchen, resturant and in the reception.'
+            details: 'Full time summerjob, various tasks around the facility both in the kitchen, resturant and in the reception.'
         },
         {
-            Title: 'After School Program',
+            title: 'After School Program',
             duration: 'June 2012 - Still employed',
             employer: 'Gol Idrettsfritidsordning - IFO',
-            JobDetails: 'On and off work when available. Tasks vary from food making to schedule planning. But the main part is making sure the children are active, well fed and socialized in the hours after school.'
+            details: 'On and off work when available. Tasks vary from food making to schedule planning. But the main part is making sure the children are active, well fed and socialized in the hours after school.'
         },
         {
-            Title: 'Kindergarden substitute',
+            title: 'Kindergarden substitute',
             duration: 'February 2016 - Juli 2016',
             employer: 'Gol Barnehager',
-            JobDetails: 'On-call substitute for several kindergardens.'
+            details: 'On-call substitute for several kindergardens.'
         },
         {
-            Title: 'Initial compulsory military service',
+            title: 'Initial compulsory military service',
             duration: 'January 2015 - January 2016',
             employer: 'Norwegian Armed Forces',
-            JobDetails: 'Basic training in the Royal Norwegian Navy, with further further enducation within th Meic field. Employment at nursery.'
+            details: 'Basic training in the Royal Norwegian Navy, with further further enducation within th Meic field. Employment at nursery.'
         },
         {
-            Title: 'Waitor',
+            title: 'Waitor',
             duration: 'September 2012 - March 2013',
             employer: 'Storefjell Hotell Gol',
-            JobDetails: 'Part time, Waiting tables and cleaning dishes at a five-star mountain hotell.'
+            details: 'Part time, Waiting tables and cleaning dishes at a five-star mountain hotell.'
         },
         {
-            Title: 'Baker\'s assistant',
+            title: 'Baker\'s assistant',
             duration: 'June 2012 - March 2012',
             employer: 'Gol bakeri og konditori',
-            JobDetails: 'Summerjob working in production department at bakery. Making and shaping of certain types of pastry.'
+            details: 'Summerjob working in production department at bakery. Making and shaping of certain types of pastry.'
         }
     ],
-    CVEducation: [
+    CVEducations: [
         {
             title: 'Front-end Developer',
             school: 'Noroff',
             duration: 'August 2018 - Ongoing',
-            class: 'FEU1, FEU2'
+            details: 'FEU1, FEU2'
         },
         {
             title: 'Teacher',
             school: 'NLA Breistein',
             duration: 'August 2016 - June 2017(not completed)',
-            class: 'Naturfag 5.-10. Klasse'
+            details: 'Naturfag 5.-10. Klasse'
         },
         {
             title: 'Medier og Kommunikasjon',
             school: 'Gol videregående Skule',
             duration: 'August 2011 - June 2014',
-            class: '1MKA, 2MKA, 3MKA'
+            details: '1MKA, 2MKA, 3MKA'
         }
     ],
     courses: [
         {
-            title: 'life saving course in water',
+            title: 'Life Saving course in water',
             supplier: 'Bergen Kommune',
             details: 'Life saving course with focus on rescuing drowned patients, from recuing out of water to delivering to Ambulance(with CPR).',
         },

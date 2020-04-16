@@ -2,7 +2,15 @@
 @import 'Home';
 @import 'normalize';
 @import 'About';
+@import 'CV';
 
-.container {
-  text-align: left;
+li {
+  list-style-type: square;
 }
+.main {
+  margin-top: 50px;
+}
+.nav {
+  border-bottom: solid thin;
+}
+

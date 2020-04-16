@@ -1,0 +1,50 @@
+.cv {
+    .cv__initial-info {
+        text-align: center;
+    }
+    .cv__header {
+        border-top: solid black 2px;
+        border-bottom: solid black 0.5px;
+        padding-top: 10px;
+        margin-bottom: 25px;
+    }
+    .cv__title {
+        display: inline-block;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    .cv__duration {
+        float: right;
+        color: gray;
+        font-size: 12px;
+    }
+    .cv__employer {
+        font-size: 14px;
+        font-style: italic;
+        margin-bottom: 5px;
+    }
+    .cv__details {
+        max-width: 70%;
+        font-size: 14px;
+    }
+    .cv__info-container {
+         margin-bottom: 50px;
+    }
+    .cv__class {
+        font-size: 14px;
+    }
+    .cv__school {
+        font-size: 14px;
+        font-style: italic;
+        margin-bottom: 5px;
+    }
+    .cv__skill-item {
+        display: list-item;
+        list-style-type: square;
+        text-indent: 10px;
+        white-space: nowrap;
+    }
+    .cv__title--pd-bot {
+        margin-bottom: 20px;
+    }
+}

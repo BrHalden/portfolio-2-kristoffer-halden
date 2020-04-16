@@ -25,7 +25,7 @@ export default function Layout (props) {
                     Contact
                 </NavLink>
             </Nav>
-            <Container className='home'>
+            <Container className='main'>
                 <Switch>
                     <Route path='/' exact component={Home} />
                     <Route path='/About' component={About} />
