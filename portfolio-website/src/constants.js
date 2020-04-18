@@ -140,3 +140,12 @@ export const CV = {
         'JavaScript', 'HTML', 'CSS/SCSS', 'React', 'Bootstrap', 'Adobe Photoshop', 'Adobe Illustrator', 'Adobe XD'
     ]
 }
+export const aboutInfo = {
+    name: 'Kristoffer Bråthen Halden',
+    age: 25,
+    city: 'Bergen',
+    adress: 'Vikens Gate 16',
+    origin: 'Gol',
+    job: 'Personal Support',
+    education: 'Front-end Development - Noroff',
+}
