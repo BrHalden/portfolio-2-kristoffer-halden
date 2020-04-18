@@ -8,7 +8,7 @@ import {aboutInfo} from '../../constants'
 
 
 export default function About (props) {
-    const {name, age, origin, city, adress, job} = aboutInfo;
+    const {name, age, origin, city, job} = aboutInfo;
     return (
         <Container className='about'>
             <Row>

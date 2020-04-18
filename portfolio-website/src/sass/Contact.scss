@@ -1,0 +1,20 @@
+
+.form {
+    .form__header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .form__accepted {
+        color: rgb(22, 130, 74);
+        margin-left: 10px;
+    }
+    .form__error {
+        color: rgb(89, 8, 8);
+        margin: 0;
+        margin-bottom: -20px;
+    }
+    .form-group {
+        margin-bottom: 30px;
+    }
+}
+

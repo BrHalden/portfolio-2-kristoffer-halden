@@ -3,6 +3,7 @@
 @import 'normalize';
 @import 'About';
 @import 'CV';
+@import 'Contact';
 
 li {
   list-style-type: square;
@@ -13,4 +14,8 @@ li {
 .nav {
   border-bottom: solid thin;
 }
+.hidden {
+  visibility: hidden;
+}
+
 
