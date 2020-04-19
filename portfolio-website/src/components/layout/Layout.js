@@ -11,7 +11,7 @@ import Cv from '../cv/Cv.js'
 export default function Layout (props) {
     return (
         <Router>
-            <Nav>
+            <Nav className='main-nav'>
                 <NavLink to='/' exact className="nav-link">
                     Home
                 </NavLink>

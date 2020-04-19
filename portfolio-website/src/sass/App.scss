@@ -17,5 +17,21 @@ li {
 .hidden {
   visibility: hidden;
 }
+.header {
+  border-top: solid black 2px;
+  border-bottom: solid black 0.5px;
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+.nav {
+  background-color: rgb(244, 244, 244);
+  .nav-link {
+    color: rgb(142, 8, 8);
+  }
+  .nav-link:hover {
+    color: rgb(255, 58, 58);
+  }
+}
+
 
 

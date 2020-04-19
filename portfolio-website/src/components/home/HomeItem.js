@@ -12,8 +12,8 @@ export default function HomeItem (props) {
             const {projectName, pojectContext, introText, bulkText, processText, conclutionText, image1, image2, imageCarousel, id} = project;
             console.log(projectName)
             return (
-                <div className='home__item' key={i}>
-                    <h1 className='home__header'>{projectName}</h1>
+                <div className='home' key={i}>
+                    <h3 className='home__header'>{projectName}</h3>
                     <p className='home__intro-text'>{introText}</p>
                     <Tabs defaultActiveKey="general" id="uncontrolled-tab-example">
                         <Tab className='home__tab' eventKey="general" title="General">
@@ -29,7 +29,7 @@ export default function HomeItem (props) {
                     <Carousel>
                         <Carousel.Item>
                             <img
-                            className="d-block w-100"
+                            className="d-block w-100 carousel__image"
                             src={img}
                             alt="First slide"
                             />
@@ -40,7 +40,7 @@ export default function HomeItem (props) {
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                            className="d-block w-100"
+                            className="d-block w-100 carousel__image"
                             src={img}
                             alt="Third slide"
                             />
@@ -52,7 +52,7 @@ export default function HomeItem (props) {
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
-                            className="d-block w-100"
+                            className="d-block w-100 carousel__image"
                             src={img}
                             alt="Third slide"
                             />

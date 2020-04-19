@@ -35,7 +35,7 @@ export default function Contact (props) {
                             <ListGroup variant='flush'>
                                 <ListGroup.Item>kris-b.h@hotmail.com</ListGroup.Item>
                                 <ListGroup.Item>Phone: +47 941 95 061</ListGroup.Item>
-                                <ListGroup.Item><a href='https://www.facebook.com/kristoffer.halden'>Facebook</a></ListGroup.Item>
+                                <ListGroup.Item><a href='https://www.facebook.com/kristoffer.halden' className='social-link'>Facebook</a></ListGroup.Item>
                                 <ListGroup.Item><a href='https://www.linkedin.com/in/kristoffer-halden-254698193/'>LinkdIn</a></ListGroup.Item>
                                 <ListGroup.Item><a href='https://twitter.com/halden_b'>Twitter</a></ListGroup.Item>
                             </ListGroup>
@@ -44,7 +44,7 @@ export default function Contact (props) {
                 </Col>
                 <Col md='8'>
                     <Form className='form' onSubmit={handleSubmit(onSubmit)}>
-                    <h2 className='form__header'>Send a message</h2>
+                    <h3 className='form__header header'>Send a message</h3>
                         <Form.Group as={Row}>
                             <Form.Label column sm={2}>
                             Name:

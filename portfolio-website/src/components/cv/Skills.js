@@ -18,7 +18,7 @@ export default function Skills(props) {
                                     {CV.languages.map((language, i) => {
                                         return (
                                             <Col md='5'>
-                                                <p key={i} className='cv__skill-item'>{language}</p>
+                                                <p key={i + 'language'} className='cv__skill-item'>{language}</p>
                                             </Col>
                                         )
                                     })}

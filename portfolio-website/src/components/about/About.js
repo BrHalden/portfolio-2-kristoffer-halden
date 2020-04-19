@@ -11,6 +11,7 @@ export default function About (props) {
     const {name, age, origin, city, job} = aboutInfo;
     return (
         <Container className='about'>
+            <h1 className='header'>About me</h1>
             <Row>
                 <Col sm={4} md={4} lg={4}>
                     <FigureImage 
@@ -21,8 +22,10 @@ export default function About (props) {
                     />
                 </Col>
                 <Col sm={8} md={8} lg={8}>
-                    <h1>About me</h1>
-                    <p>My name is {name}. I'm {age} years old and grew up in {origin} Norway, currently located in {city}, and have been for close to 4 years. I'm studying frontend development and working part time as {job}. Soon to finish my education as front-end developer at Noroff, I'm looking forward to applying for jobs in the web industry. </p>
+                    <Col md='6'>
+                    <p className='about__text'>My name is {name}. I'm {age} years old and grew up in {origin} Norway, currently located in {city}, and have been for close to 4 years. I'm studying frontend development and working part time as {job}. Soon to finish my education as front-end developer at Noroff, I'm looking forward to applying for jobs in the web industry. </p>
+                    </Col>
+                    <Col md='6'></Col>
                 </Col>
             </Row>
         </Container>
