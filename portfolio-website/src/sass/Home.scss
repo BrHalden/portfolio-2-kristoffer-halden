@@ -51,7 +51,21 @@
     .home__tab {
         -webkit-column-count: 3; 
         -moz-column-count: 3; 
-        column-count: 3; 
+        column-count: 3;    
+    }
+    @media only screen and (max-width: 767px) {
+        .home__tab {
+            -webkit-column-count: 2; 
+            -moz-column-count: 2; 
+            column-count: 2;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        .home__tab {
+            -webkit-column-count: 1; 
+            -moz-column-count: 1; 
+            column-count: 1;
+        }
     }
     .home__intro-text {
         font-weight: bold;
