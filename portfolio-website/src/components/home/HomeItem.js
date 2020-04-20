@@ -1,10 +1,8 @@
-import React, { isValidElement } from 'react';
-import Container from 'react-bootstrap/Container';
+import React from 'react';
 import {projects} from '../../constants.js';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 import Carousel from 'react-bootstrap/Carousel'
-import img from '../../images/img.jpg';
 import project1Img1 from '../../images/project1-img1.png'
 import project1Img2 from '../../images/project1-img2.png'
 import project1Img3 from '../../images/project1-img3.png'
@@ -20,7 +18,7 @@ export default function HomeItem (props) {
     
     return (
         projects.map((project, i) => {
-            const {projectName, pojectContext, introText, bulkText, processText, conclutionText, id} = project;
+            const {projectName, introText, bulkText, processText, conclutionText, id} = project;
             const projectImg = [
                 [
                     project1Img1,
@@ -65,7 +63,7 @@ export default function HomeItem (props) {
                             <img
                             className="d-block w-100 carousel__image"
                             src={projectImg[1][id - 1]}
-                            alt="Third slide"
+                            alt="Second slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>

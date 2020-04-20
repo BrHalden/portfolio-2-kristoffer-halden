@@ -3,11 +3,10 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import Contact from '../contact/Contact.js'
-import About from '../about/About.js'
-import Home from '../home/Home.js'
-import Cv from '../cv/Cv.js'
-import logo from '../../images/logo.png'
+import Contact from '../contact/Contact.js';
+import About from '../about/About.js';
+import Home from '../home/Home.js';
+import Cv from '../cv/Cv.js';
 
 export default function Layout (props) {
     return (

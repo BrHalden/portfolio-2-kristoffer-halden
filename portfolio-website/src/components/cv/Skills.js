@@ -17,8 +17,8 @@ export default function Skills(props) {
                                 <Row>
                                     {CV.languages.map((language, i) => {
                                         return (
-                                            <Col md='5'>
-                                                <p key={i + 'language'} className='cv__skill-item'>{language}</p>
+                                            <Col md='5' key={i + 'language'}>
+                                                <p  className='cv__skill-item'>{language}</p>
                                             </Col>
                                         )
                                     })}
@@ -33,8 +33,8 @@ export default function Skills(props) {
                             <Row>
                                 {CV.technicalSkills.map((skills, i) => {
                                     return (
-                                        <Col md='5'>
-                                            <p key={i + 'tech'} className='cv__skill-item'>{skills}</p> 
+                                        <Col md='5' key={i + 'tech'}>
+                                            <p  className='cv__skill-item'>{skills}</p> 
                                         </Col>
                                     )
                                 })}

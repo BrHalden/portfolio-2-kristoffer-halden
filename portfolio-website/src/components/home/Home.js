@@ -19,7 +19,7 @@ export default function Home (props) {
             <Row className='page__row'>
                 <Col md='4'>
                     <div className='page__img-hover-zoom page__img-hover-zoom--colorize'>
-                        <a href='#1'><img className='page__project-img' src={Proj1Teaser} /></a>
+                        <a href='#1'><img className='page__project-img' src={Proj1Teaser} alt='Project 1 teaser'/></a>
                     </div>
                     <div className='page__project-info'>
                         <h4>{projects[0].projectName}</h4>
@@ -29,7 +29,7 @@ export default function Home (props) {
                 </Col>
                 <Col md='4'>
                     <div className='page__img-hover-zoom page__img-hover-zoom--colorize'>
-                        <a href='#2'><img className='page__project-img' src={Proj2Teaser} /></a>
+                        <a href='#2'><img className='page__project-img' src={Proj2Teaser} alt='Project 2 teaser'/></a>
                     </div>
                     <div className='page__project-info'>
                         <h4>{projects[1].projectName}</h4>
@@ -39,7 +39,7 @@ export default function Home (props) {
                 </Col>
                 <Col md='4'>
                     <div className='page__img-hover-zoom page__img-hover-zoom--colorize page__img3-hover-zoom--colorize'>
-                        <a href='#3'><img className='page__project-img' src={Proj3Teaser} /></a>
+                        <a href='#3'><img className='page__project-img' src={Proj3Teaser} alt='Project 3 teaser'/></a>
                     </div>
                     <div className='page__project-info'>
                         <h4>{projects[2].projectName}</h4>
