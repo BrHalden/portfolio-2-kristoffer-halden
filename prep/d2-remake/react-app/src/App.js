@@ -1,14 +1,12 @@
 import React from 'react';
-import './sass/App.scss';
-import Layout from './components/layout/Layout'
+import './App.css';
+import Header from './components/Header'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-        <Layout>
-          
-        </Layout>
+      <Header />
     </div>
   );
 }

@@ -26,25 +26,12 @@ export default function Contact (props) {
         $('.form__accepted').removeClass('hidden');
     }
     return (
-        <Container>
-            <Row>
-                <Col md='4'>
-                    <Card>
-                        <Card.Header>Reach me on: </Card.Header>
-                        <Card.Body>
-                            <ListGroup variant='flush'>
-                                <ListGroup.Item>kris-b.h@hotmail.com</ListGroup.Item>
-                                <ListGroup.Item>Phone: +47 941 95 061</ListGroup.Item>
-                                <ListGroup.Item><a href='https://www.facebook.com/kristoffer.halden' className='social-link'>Facebook</a></ListGroup.Item>
-                                <ListGroup.Item><a href='https://www.linkedin.com/in/kristoffer-halden-254698193/'>LinkdIn</a></ListGroup.Item>
-                                <ListGroup.Item><a href='https://twitter.com/halden_b'>Twitter</a></ListGroup.Item>
-                            </ListGroup>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col md='8'>
+        <Container className='contact'>
+            <h1 className='contact__header'>Get in Touch</h1>
+            <Col>
                     <Form className='form' onSubmit={handleSubmit(onSubmit)}>
-                    <h3 className='form__header header'>Send a message</h3>
+                    <h3 className='header'>Send a message</h3>
+                        <Container>
                         <Form.Group as={Row}>
                             <Form.Label column sm={2}>
                             Name:
@@ -76,14 +63,24 @@ export default function Contact (props) {
                             <Form.Label column sm={2}>
                             
                             </Form.Label>
-                            <Col sm={10}>
+                            <Col sm={10} className='form__submit'>
                                 <Button variant="secondary" type="submit">Submit</Button>
                                 <span className="hidden form__accepted">Your message was sent</span>
                             </Col>
                         </Form.Group>
+                        </Container>
                     </Form>
+                        <h3 className='header'>Contact Information</h3>
+                        <Container className='contact__info-container'>
+                            <ListGroup variant='flush' className='contact__info'>
+                                <ListGroup.Item>kris-b.h@hotmail.com</ListGroup.Item>
+                                <ListGroup.Item>Phone: +47 941 95 061</ListGroup.Item>
+                                <ListGroup.Item><a href='https://www.facebook.com/kristoffer.halden' className='social-link'>Facebook</a></ListGroup.Item>
+                                <ListGroup.Item><a href='https://www.linkedin.com/in/kristoffer-halden-254698193/' className='social-link'>LinkdIn</a></ListGroup.Item>
+                                <ListGroup.Item><a href='https://twitter.com/halden_b' className='social-link'>Twitter</a></ListGroup.Item>
+                            </ListGroup>
+                        </Container>
                 </Col>
-            </Row>
         </Container>
     )
 }

@@ -7,23 +7,26 @@ import Contact from '../contact/Contact.js'
 import About from '../about/About.js'
 import Home from '../home/Home.js'
 import Cv from '../cv/Cv.js'
+import logo from '../../images/logo.png'
 
 export default function Layout (props) {
     return (
         <Router>
             <Nav className='main-nav'>
-                <NavLink to='/' exact className="nav-link">
-                    Home
-                </NavLink>
-                <NavLink to='/About' className="nav-link">
-                    About
-                </NavLink>
-                <NavLink to='/Cv' className="nav-link">
-                    CV
-                </NavLink>
-                <NavLink to='/Contact' className="nav-link">
-                    Contact
-                </NavLink>
+                <Navbar>
+                    <NavLink to='/' exact className="nav-link">
+                        Home
+                    </NavLink>
+                    <NavLink to='/About' className="nav-link">
+                        About
+                    </NavLink>
+                    <NavLink to='/Cv' className="nav-link">
+                        CV
+                    </NavLink>
+                    <NavLink to='/Contact' className="nav-link">
+                        Contact
+                    </NavLink>
+                </Navbar>
             </Nav>
             <Container className='main'>
                 <Switch>
